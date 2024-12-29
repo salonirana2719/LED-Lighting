@@ -19,7 +19,7 @@ const testimonials = [
 
 const ClientTestimonials = () => {
   return (
-    <div className="px-6 md:px-12 lg:px-24 py-12">
+    <div className="px-6 container mx-auto md:px-12 lg:px-24 py-12">
       <h2 className="text-purple-600 text-xl md:text-3xl ml-6 font-bold text-left mb-6">
         What Clients <br /> Our Saying
       </h2>
