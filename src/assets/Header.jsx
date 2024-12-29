@@ -9,7 +9,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <nav
-      className="bg-white border-gray-200 bg-[background: #FFFFFF;
+      className="bg-white md:py-1 py-2 border-gray-200 bg-[background: #FFFFFF;
 ]"
     >
     <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-1">
@@ -19,16 +19,16 @@ const Header = () => {
   >
     <img
       src="/logo.svg"
-      className="h-10 md:h-[77px] w-20 md:w-[149px]"
+      className="h-[50px] md:h-[77px] w-[100px] md:w-[149px]"
       alt="Flowbite Logo"
     />
   
   </a>
   <div className="flex md:order-2 space-x-4 rtl:space-x-reverse">
     <div className="flex flex-row items-center space-x-4 flex-nowrap">
-    <FiSearch className="text-1xl md:text-2xl text-gray-700" /> {/* Search Icon */}
-    <FiShoppingCart className="text-1xl md:text-2xl text-gray-700" /> {/* Cart Icon */}
-    <FiUser className="text-1xl md:text-2xl text-gray-700" /> {/* User Icon */}
+    <FiSearch className="text-2xl md:text-2xl text-gray-700" /> {/* Search Icon */}
+    <FiShoppingCart className="text-2xl md:text-2xl text-gray-700" /> {/* Cart Icon */}
+    <FiUser className="text-2xl md:text-2xl text-gray-700" /> {/* User Icon */}
       
     </div>
   </div>
