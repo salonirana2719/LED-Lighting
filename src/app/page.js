@@ -3,8 +3,9 @@ import Banner from "@/components/homePage/Banner";
 import BestSeller from "@/components/homePage/BestSeller";
 import BrightenUp from "@/components/homePage/BrightenUp";
 import ClientTestimonials from "@/components/homePage/ClientTestimonials";
-import ProductCard from "@/components/homePage/ProductCard";
+// import ProductCard from "@/components/homePage/ProductCard";
 import ProductGrid from "@/components/homePage/ProductGrid";
+import WhatNew from "@/components/homePage/WhatNews";
 
 
 export default function Home() {
@@ -12,10 +13,11 @@ export default function Home() {
    <>
    <Banner/>
    <About/>
-   <BrightenUp/>
-   <ClientTestimonials/>
-   <BestSeller/>
    <ProductGrid/>
+   <BrightenUp/>
+   <BestSeller/>
+<WhatNew/>
+   <ClientTestimonials/>
   
    </>
   );
