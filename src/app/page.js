@@ -13,11 +13,12 @@ export default function Home() {
    <>
    <Banner/>
    <About/>
+   <WhatNew/>
    <ProductGrid/>
    <BrightenUp/>
    <BestSeller/>
-<WhatNew/>
-   <ClientTestimonials/>
+
+   <ClientTestimonials/>  
   
    </>
   );

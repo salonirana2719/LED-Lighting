@@ -23,7 +23,7 @@ const ProductCard = ({ image, name, price, originalPrice, discount }) => {
       </div>
 
       {/* Button Section */}
-      <button className="bg-gradient-to-r from-purple-500 to-red-500 text-white px-4 w-full mt-auto mb-4 py-2  rounded-lg text-sm">
+      <button className="bg-gradient-to-r from-purple-500 to-red-500 text-white px-4 w-full mt-auto mb-4 py-2 font-syne  rounded-lg text-sm">
         Buy Now →
       </button>
     </div>

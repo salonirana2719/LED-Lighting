@@ -96,12 +96,12 @@ function Products() {
   ];
 
   return (
-    <div className="bg-gray-50 min-h-screen   md:px-28">
-      <h1 className="text-center text-2xl md:text-3xl font-bold text-purple-600 mb-8">
+    <div className=" bg-white  container mx-auto  md:px-28">
+      <h1 className="text-center text-2xl md:text-3xl font-syne font-bold text-[#674099] mb-8">
         --- What's New ---
       </h1>
 
-      <div className="grid grid-cols-1 md:grid-cols-12 gap-4 p-4">
+      <div className="grid grid-cols-1 md:grid-cols-12 gap-4 p-4 justify-items-center gap-y-8">
         <div className="md:col-span-3">
           <ProductCardOne product={products[0]} />
         </div>
@@ -113,7 +113,7 @@ function Products() {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-12 gap-4 p-4">
+      <div className="grid grid-cols-1 md:grid-cols-12 gap-4 p-4 justify-items-center gap-y-8">
         <div className="md:col-span-6">
           <ProductCardTwo product={products[3]} />
         </div>

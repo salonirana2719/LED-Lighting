@@ -4,85 +4,76 @@ import React, { useState } from "react";
 
 const Banner = () => {
   const [selectedColor, setSelectedColor] = useState("Sunset");
- const [bgClass ,setBgClass] = useState("sunset")
+  const [bgClass, setBgClass] = useState("sunset");
 
   const colorOptions = [
     {
       name: "Sunset",
       color: " #FFA11499",
       bulbImage: "/sunset.svg",
-      bgColor: "sunset"
+      bgColor: "sunset",
     },
     {
       name: "Night",
       color: "#0028FD99",
       bulbImage: "/night.svg",
-      bgColor: "night"
-
+      bgColor: "night",
     },
     {
       name: "Romentic",
       color: "#F800FD99",
       bulbImage: "/romentic.svg",
-      bgColor: "romentic"
-
+      bgColor: "romentic",
     },
     {
       name: "Reading",
       color: "#FFF2DFCC",
       bulbImage: "/reading.svg",
-      bgColor: "reading"
-
+      bgColor: "reading",
     },
   ];
 
-  const currentColor = colorOptions.find(
-    (item) => item.name === selectedColor
-  );
+  const currentColor = colorOptions.find((item) => item.name === selectedColor);
 
-  const handleDotClick = (colorName ,bgColor ) => {
-    setSelectedColor(colorName );
-    setBgClass(bgColor)
-    
-   
+  const handleDotClick = (colorName, bgColor) => {
+    setSelectedColor(colorName);
+    setBgClass(bgColor);
   };
 
   return (
     <div
-      className="relative bg-purple-900 text-white px-5 py-2 md:py-14 container mx-auto"
+      className="relative bg-purple-900 text-white px-5 py-10 md:py-14 container mx-auto"
       style={{
         backgroundImage: `url('https://plus.unsplash.com/premium_photo-1683133958062-12afa652a4fb?q=80&w=1852&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
     >
-      
-     
-        <div className={`${bgClass}`}></div>
- 
+      <div className={`${bgClass}`}></div>
+
       {/* Main Grid Section */}
-      <div className="relative z-20 grid grid-cols-1 md:grid-cols-2 gap-8 max-w-7xl mx-auto items-center">
+      <div className="relative z-20 grid grid-cols-1 md:grid-cols-2 gap-2 max-w-7xl mx-auto items-center">
         {/* Left Section: Text and Button */}
         <div className="space-y-6">
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight">
-            Bring color to your home
+          <h1 className="text-4xl font-syne sm:text-5xl lg:text-6xl font-bold   leading-tight">
+            Bring color <br></br> to your home
           </h1>
-          <p className="text-lg">
+          <p className="text-lg font-syne">
             with CRYSTAL EURO Smart Bulb Essential (Color and White)
           </p>
-          <button className="bg-gradient-to-r from-[#674099] to-[#EB4F23] text-white py-3 px-6 rounded-lg shadow-lg hover:opacity-90 transition">
+          <button className="bg-gradient-to-r from-[#674099] to-[#EB4F23]  text-white py-3 px-6 rounded-lg shadow-lg hover:opacity-90 transition">
             Buy Now →
           </button>
         </div>
 
-        <div className="relative">
-          {/* Bulb Image */}
+        <div className="relative ">
+    
           <Image
             src={currentColor.bulbImage}
             alt={`${selectedColor} Smart Bulb`}
             width={385}
             height={683}
-            className="mx-auto "
+            className="item-left "
           />
 
           {/* Color Options */}

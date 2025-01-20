@@ -23,7 +23,7 @@ const About = () => {
                 className="w-[150px] h-[78px]"
               />{" "}
             </h3>
-            <h2 className="text-3xl md:text-3xl lg:text-4xl font-medium text-purple-800">
+            <h2 className="text-3xl font-syne md:text-3xl lg:text-4xl font-medium text-purple-800">
               About the <br></br> Crystal Euro
             </h2>
           </div>
@@ -35,7 +35,7 @@ const About = () => {
             the majority have suffered alteration in some form, by injected
             humour, or randomised words.
           </p>
-          <button className="bg-gradient-to-r from-[#674099] to-[#EB4F23] hover:bg-purple-800 text-white font-semibold py-2 px-6 rounded-md shadow-lg transition duration-300">
+          <button className="bg-gradient-to-r from-[#674099] to-[#EB4F23] hover:bg-purple-800 text-white font-syne font-semibold py-2 px-6 rounded-md shadow-lg transition duration-300">
             Know More →
           </button>
         </div>

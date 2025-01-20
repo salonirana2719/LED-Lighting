@@ -9,7 +9,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <nav
-      className="bg-white md:py-1 py-2 border-gray-200 bg-[background: #FFFFFF;
+      className="bg-white container mx-auto  md:py-1 py-2 border-gray-200 bg-[background: #FFFFFF;
 ]"
     >
     <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-1">

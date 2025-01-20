@@ -23,7 +23,7 @@ const BestSeller = () => {
 
   return (
     <div className="px-4 md:py-20 py-8  container mx-auto  md:px-16">
-      <h2 className="text-center text-xl mb-8 md:mb-20 font-bold text-purple-600 md:text-3xl">
+      <h2 className="text-center text-xl font-syne mb-8 md:mb-20 font-bold text-[#674099] md:text-3xl">
         Best Seller Offer
       </h2>
       <div className="mt-8 flex flex-wrap  justify-center gap-8 md:gap-32">

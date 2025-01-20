@@ -20,7 +20,7 @@ const testimonials = [
 const ClientTestimonials = () => {
   return (
     <div className="px-6 container mx-auto md:px-12 lg:px-24 py-12">
-      <h2 className="text-purple-600 text-xl md:text-3xl ml-6 font-bold text-left mb-6">
+      <h2 className="text-[#674099] font-syne text-xl md:text-3xl ml-6 font-bold text-left mb-6">
         What Clients <br /> Our Saying
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
