@@ -48,7 +48,7 @@ const BestSeller = () => {
                   alt={card.title}
                   className="w-28 rounded-md right-6  absolute top-0 object-contain"
                 />
-                <div className="absolute bottom-20 left-6 flex h-8 w-8 items-center justify-center rounded-full bg-white shadow-md">
+                <div className="absolute bottom-14 left-6 flex h-8 w-8 items-center justify-center rounded-full bg-white shadow-md">
                   <span className="text-lg font-bold text-gray-800">→</span>
                 </div>
               </div>

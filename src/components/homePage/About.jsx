@@ -27,7 +27,7 @@ const About = () => {
               About the <br></br> Crystal Euro
             </h2>
           </div>
-          <p className="text-gray-600 leading-normal mb-6 text-sm md:text-base lg:text-lg">
+          <p className="text-gray-600 leading-normal mb-6 text-sm text-justify md:text-base lg:text-lg">
             Lorem Ipsum is simply dummy text of the printing industry. The point
             of using Lorem Ipsum is that it has a more-or-less normal
             distribution of letters, as opposed to using 'Content here, content

@@ -38,7 +38,7 @@ const ClientTestimonials = () => {
             <div>
               <h3 className="text-2xl   font-bold ">{testimonial.name}</h3>
 
-              <p className="mt-2  text-gray-600 text-sm ">
+              <p className="mt-2 text-start text-gray-600 text-sm ">
                 {testimonial.feedback}
               </p>
               <div className="flex items-center gap-24 mt-2">

@@ -26,7 +26,7 @@ const BrightenUp = () => {
         <h1 className="text-4xl lg:text-5xl font-syne font-bold leading-tight">
           Brighten up <br></br> your space
         </h1>
-        <p className="mt-4 max-w-96 text-gray-300 text-sm lg:text-base">
+        <p className="mt-4 max-w-96 text-gray-300 text-sm  text-justify lg:text-base">
         Lorem Ipsum is simply dummy text of the  looking at its layout. The point of using Lorem Ipsum is that iprinting text heremany variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised  passa
         </p>
         <button className="mt-6 bg-gradient-to-r from-[#674099] to-[#EB4F23] hover:bg-purple-700 text-white text-sm font-syne lg:text-base px-8 py-2 rounded-lg shadow-lg transition duration-300">
